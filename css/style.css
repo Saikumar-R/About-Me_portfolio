@@ -1327,8 +1327,8 @@ body.light hr.separator {
 
   .main-img-mobile {
     border-radius: 50%;
-    width: 230px;
-    height: 260px;
+    width: 270px;
+    height: 270px;
     border: 4px solid #252525;
     margin: 0 auto 25px;
     display: block;
@@ -1622,8 +1622,8 @@ body.light hr.separator {
   }
 
   .main-img-mobile {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 225px;
   }
 
   .home .home-details h1 {
