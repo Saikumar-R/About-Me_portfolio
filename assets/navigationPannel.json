@@ -1,0 +1,19 @@
+{
+    "navigation":[
+        {
+            "icon":["fa","fa-home"],
+            "url":"index.html",
+            "text":"Home"
+        },
+        {
+            "icon":["fa","fa-user"],
+            "url":"about.html",
+            "text":"About"
+        },
+        {
+            "icon":["fa","fa-envelope-open"],
+            "url":"contact.html",
+            "text":"Contact"
+        }
+    ]
+}

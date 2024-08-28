@@ -1,0 +1,11 @@
+{
+    "greet":"hi there !",
+    "name":["I'm", "Saikumar"],
+    "introduction":"As a Frontend Developer at <b class='company'>TCS</b>, I specialize in creating clean, user-friendly experiences. I am passionate about building exceptional user interfaces that enhance the lives of those who interact with them",
+    "companyName":"@TCS",
+    "moreBtn":{
+        "btnText":"more about me",
+        "url":"about.html"
+    },
+    "profileImage":""
+}

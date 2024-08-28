@@ -518,7 +518,7 @@ body.light hr.separator {
 }
 
 .home .home-details > div {
-  max-width: 550px;
+  max-width: 560px;
   margin: 0 auto;
 }
 
@@ -586,6 +586,12 @@ body.light hr.separator {
   margin: 0;
   font-size: 50px;
   font-weight: 700;
+  color: #4169e1;
+}
+
+.about .box-stats h2 span, 
+.company{
+  color: #4169e1;
 }
 
 .about .box-stats h3:after {
@@ -601,15 +607,6 @@ body.light hr.separator {
   padding-left: 45px;
 }
 
-.about .box-stats p:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 13px;
-  width: 30px;
-  height: 1px;
-  background: #777;
-}
 
 /* Resume */
 
@@ -1760,4 +1757,9 @@ body.light hr.separator {
   .separator.mt-1 {
     margin-top: 35px !important;
   }
+}
+
+.box-stats .years_text,
+.resume{
+  font-size: 25px;
 }
