@@ -84,7 +84,7 @@ export const navigationPannel = ()=>{
              contactIcon = document.querySelector(".contactIcon"),
              aboutIcon = document.querySelector(".aboutIcon");
 
-        if(path.includes("index")){
+        if(path.includes("index") || path === "/"){
             homeIcon.classList.add("active");
             document.querySelector(".homeIcon a").setAttribute("href","javascript:void(0)");
         }else if(path.includes("contact")){
