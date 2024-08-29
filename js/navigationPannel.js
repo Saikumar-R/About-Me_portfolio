@@ -1,5 +1,10 @@
 import data from '../assets/navigationPannel.json' with { type: 'json' };
 
+const removeBlackScreen = ()=>{
+    setTimeout(()=>{
+        document.getElementById("preloader").remove();
+    },1000)
+}
 export const navigationPannel = ()=>{
     const header = document.querySelector("header");
     let path = window.location.pathname;
@@ -96,4 +101,5 @@ export const navigationPannel = ()=>{
     setActiveTab();
 }
 
+removeBlackScreen();
 navigationPannel();
