@@ -1759,7 +1759,6 @@ body.light hr.separator {
   }
 }
 
-.box-stats .years_text,
-.resume{
+.box-stats .years_text{
   font-size: 25px;
 }
