@@ -3,17 +3,20 @@
         {
             "icon":["fa","fa-home"],
             "url":"index.html",
-            "text":"Home"
+            "text":"Home",
+            "id":"homeIcon"
         },
         {
             "icon":["fa","fa-user"],
             "url":"about.html",
-            "text":"About"
+            "text":"About",
+            "id":"aboutIcon"
         },
         {
             "icon":["fa","fa-envelope-open"],
             "url":"contact.html",
-            "text":"Contact"
+            "text":"Contact",
+            "id":"contactIcon"
         }
     ]
 }

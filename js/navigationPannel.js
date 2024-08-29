@@ -2,6 +2,7 @@ import data from '../assets/navigationPannel.json' with { type: 'json' };
 
 export const navigationPannel = ()=>{
     const header = document.querySelector("header");
+    let path = window.location.pathname;
 
     //navigation pannel for large devices
     const lgNavigation = ()=>{
@@ -63,7 +64,7 @@ export const navigationPannel = ()=>{
                 link.appendChild(text);
             }
 
-            listElm.classList.add(listClass);
+            listElm.classList.add(listClass,el.id);
 
             icon.classList.add(el.icon[0],el.icon[1]);
             link.setAttribute("href",el.url);
@@ -73,6 +74,24 @@ export const navigationPannel = ()=>{
         });
     }
 
+    const setActiveTab = ()=>{
+        const homeIcon = document.querySelector(".homeIcon"),
+             contactIcon = document.querySelector(".contactIcon"),
+             aboutIcon = document.querySelector(".aboutIcon");
+
+        if(path.includes("index")){
+            homeIcon.classList.add("active");
+            document.querySelector(".homeIcon a").setAttribute("href","javascript:void(0)");
+        }else if(path.includes("contact")){
+            contactIcon.classList.add("active");
+            document.querySelector(".contactIcon a").setAttribute("href","javascript:void(0)");
+        }else if(path.includes("about")){
+            aboutIcon.classList.add("active");
+            document.querySelector(".aboutIcon a").setAttribute("href","javascript:void(0)");
+        }
+    }
+
     lgNavigation();
     smNavigation();
+    setActiveTab();
 }
