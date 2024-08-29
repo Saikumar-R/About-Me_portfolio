@@ -1,0 +1,38 @@
+{
+    "title":"get in <span>touch</span>",
+    "titleBg":"contact",
+    "subTitle":"Don't be shy !",
+    "subTitleContent":"Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
+    "contactPrefrences":[
+        {
+           "icon":["fa", "fa-envelope-open", "position-absolute"],
+           "header":"mail me",
+           "value":"saikumar.r2210@gmail.com" 
+        },
+        {
+            "icon":["fa", "fa-phone-square", "position-absolute"],
+            "header":"call me",
+            "value":"+91 9182946927" 
+         }
+    ],
+    "socialMedia":[
+        {
+          "title":"Linked In",
+          "class":"linkedIn" ,
+          "url":"https://www.linkedin.com/in/saikumar-raghavapuram-3a7566204/",
+          "icon":["fa", "fa-linkedin"]
+        },
+        {
+            "title":"Instagram",
+            "class":"instagram" ,
+            "url":"https://www.instagram.com/saikumar__r?igsh=MWUzZGJ4M25uczJqag%3D%3D&utm_source=qr",
+            "icon":["fa", "fa-instagram"]
+        },
+        {
+            "title":"Github",
+            "class":"github" ,
+            "url":"https://github.com/Saikumar-R",
+            "icon":["fa", "fa-github"]
+        }        
+    ]
+}
