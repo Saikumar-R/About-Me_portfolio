@@ -122,6 +122,7 @@ window.onload = function(e) {
 
 	// DARK OR LIGHT
 	var is_dark = readCookie('is_light');
+	var is_boxed;
 	if(is_boxed == 'true') {
 		jQuery('light').removeClass('light');
 		jQuery('light').addClass('light');
