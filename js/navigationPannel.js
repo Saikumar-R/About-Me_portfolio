@@ -95,3 +95,5 @@ export const navigationPannel = ()=>{
     smNavigation();
     setActiveTab();
 }
+
+navigationPannel();
