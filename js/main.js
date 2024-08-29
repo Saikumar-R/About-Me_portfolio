@@ -4,7 +4,7 @@ const importDependencies = (files)=>{
     files.forEach((file)=>{
         let script = document.createElement('script');
         script.src = file;
-        document.getElementsByTagName('body')[0].appendChild(script);
+        document.getElementsByTagName('head')[0].appendChild(script);
     });
 }
 
