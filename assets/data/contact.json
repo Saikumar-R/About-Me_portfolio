@@ -6,12 +6,12 @@
     "contactPrefrences":[
         {
            "icon":["fa", "fa-envelope-open", "position-absolute"],
-           "header":"mail me",
+           "header":"mail",
            "value":"saikumar.r2210@gmail.com" 
         },
         {
             "icon":["fa", "fa-phone-square", "position-absolute"],
-            "header":"call me",
+            "header":"call",
             "value":"+91 9182946927" 
          }
     ],
