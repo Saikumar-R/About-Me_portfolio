@@ -2,6 +2,47 @@
     "title":"ABOUT <span>ME</span>",
     "titleBg":"Resume",
     "experience":["4","years of  <span>experience</span>","in","<span>Frontend</span> Development"],
+    "expAndEduTitle":"Experience & Education",
+    "experiencedRoles":[
+        {
+            "details":[
+                {
+                    "icon":"fa-briefcase",
+                    "years":"2022 - Present",
+                    "organisation":"Frontend Developer <span class='place open-sans-font d-block'>Tata Consultancy Services</span>",
+                    "role":"Offshore Team Lead && Frontend Developer"
+                },
+                {
+                    "icon":"fa-briefcase",
+                    "years":"2019 - 2022",
+                    "organisation":"Frontend Developer <span class='place open-sans-font d-block'>Cognizant Technology Solutions</span>",
+                    "role":"Team Member && Frontend Developer"
+                }
+            ]
+        },
+        {
+            "details":[
+                {
+                    "icon":"fa-graduation-cap",
+                    "years":"2015 - 2019",
+                    "organisation":"Bachelor of Technology <span class='place open-sans-font d-block'>Geethanjali Institue of Science and Technology</span>",
+                    "role":"Mechanical Engineering "
+                },
+                {
+                    "icon":"fa-graduation-cap",
+                    "years":"2013 - 2015",
+                    "organisation":"Intermediate <span class='place open-sans-font d-block'>Krishna Chaithanya Junior College</span>",
+                    "role":"M.P.C"
+                },
+                {
+                    "icon":"fa-graduation-cap",
+                    "years":"2012 - 2013",
+                    "organisation":"SSC <span class='place open-sans-font d-block'>Model High School</span>",
+                    "role":""
+                }
+            ]
+        }
+    ],
     "personalInfoSectionTitle":"personal info",
     "personalInfo":[
         {

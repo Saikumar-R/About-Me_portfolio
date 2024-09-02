@@ -675,10 +675,10 @@ body.light hr.separator {
   font-weight: 600;
   font-size: 15px;
   position: relative;
-  padding-left: 26px;
+  margin-top: 7px;
 }
 
-.about .resume-box .place:before {
+/* .about .resume-box .place:before {
   position: absolute;
   content: '';
   width: 10px;
@@ -687,7 +687,7 @@ body.light hr.separator {
   left: 7px;
   top: 9px;
   opacity: .8;
-}
+} */
 
 /* Skills */
 

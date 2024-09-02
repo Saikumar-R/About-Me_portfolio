@@ -2,7 +2,8 @@ import data from "../assets/data/about.json" with {type: "json"};
 
 const titleElm = document.getElementById("title"),
       titleBgElm = document.querySelector(".title-bg"),
-      resumeBtnElm = document.getElementById("resumeBtn");
+      resumeBtnElm = document.getElementById("resumeBtn"),
+      expSection = document.querySelector("div.exp_edu");
 
 titleElm.innerHTML = data.title;
 titleBgElm.innerText = data.titleBg;
@@ -21,7 +22,51 @@ const appendRoleAndYears = ()=>{
 }
 
 const appendTechnicalSkills = ()=>{
-    
+}
+
+const appendExpAndEdu = ()=>{
+    const titleElm = document.querySelector(".exp_edu h3")
+
+    titleElm.innerText = data.expAndEduTitle;
+
+    data.experiencedRoles.forEach((el)=>{
+        const divElm = document.createElement("div"),
+              childDivElm = document.createElement("div"),
+              listElm = document.createElement("ul");
+
+        divElm.classList.add("col-lg-6", "m-15px-tb");
+        childDivElm.classList.add("resume-box")
+
+        expSection.appendChild(divElm);
+        divElm.appendChild(childDivElm);
+        childDivElm.appendChild(listElm);
+
+        el.details.forEach((detail)=>{
+            const listItem = document.createElement("li"),
+                  divElm = document.createElement("div"),
+                  iconElm = document.createElement("i"),
+                  spanElm = document.createElement("span"),
+                  headingElm = document.createElement("h5"),
+                  paraElm = document.createElement("p");
+
+            divElm.classList.add("icon");
+            iconElm.classList.add("fa", detail.icon);
+            spanElm.classList.add("time", "open-sans-font", "text-uppercase");
+            headingElm.classList.add("poppins-font", "text-uppercase");
+            paraElm.classList.add("open-sans-font");
+
+            spanElm.innerText = detail.years;
+            headingElm.innerHTML = detail.organisation;
+            paraElm.innerText = detail.role;
+
+            listElm.appendChild(listItem);
+            listItem.appendChild(divElm);
+            divElm.appendChild(iconElm);
+            listItem.appendChild(spanElm);
+            listItem.appendChild(headingElm);
+            listItem.appendChild(paraElm);
+        })
+    })
 }
 
 const appendPersonalInfoSection = () =>{
@@ -77,4 +122,5 @@ const appendPersonalInfoSection = () =>{
 
 appendRoleAndYears();
 appendTechnicalSkills();
+appendExpAndEdu();
 appendPersonalInfoSection();
