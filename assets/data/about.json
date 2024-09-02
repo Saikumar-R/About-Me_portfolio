@@ -1,5 +1,49 @@
 {
     "title":"ABOUT <span>ME</span>",
     "titleBg":"Resume",
-    "experience":["4","years of  <span>experience</span>","in","<span>Frontend</span> Development"]
+    "experience":["4","years of  <span>experience</span>","in","<span>Frontend</span> Development"],
+    "personalInfoSectionTitle":"personal info",
+    "personalInfo":[
+        {
+            "list":[
+                {
+                    "label":"first name : ",
+                    "value":"SaiKumar"
+                },
+                {
+                    "label":"last name : ",
+                    "value":"Raghavapuram"
+                },
+                {
+                    "label":"Age : ",
+                    "value":"27"
+                },
+                {
+                    "label":"Nationality : ",
+                    "value":"Indian"
+                }
+            ]
+        },
+        {
+            "list":[
+                {
+                    "label":"Address : ",
+                    "value":"Hyderabad"
+                },
+                {
+                    "label":"phone : ",
+                    "value":"+91 9182946927"
+                },
+                {
+                    "label":"langages : ",
+                    "value":"English, Telugu"
+                },
+                {
+                    "label":"Freelance : ",
+                    "value":"Available"
+                }
+            ]
+        }
+    ],
+    "resumeBtnText":"Download My Resume"
 }

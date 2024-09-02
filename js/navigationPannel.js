@@ -86,14 +86,18 @@ export const navigationPannel = ()=>{
 
         if(path.includes("index") || path === "/"){
             homeIcon.classList.add("active");
-            document.querySelector(".homeIcon a").setAttribute("href","javascript:void(0)");
+            deactivateTab(".homeIcon");
         }else if(path.includes("contact")){
             contactIcon.classList.add("active");
-            document.querySelector(".contactIcon a").setAttribute("href","javascript:void(0)");
+            deactivateTab(".contactIcon");
         }else if(path.includes("about")){
             aboutIcon.classList.add("active");
-            document.querySelector(".aboutIcon a").setAttribute("href","javascript:void(0)");
+            deactivateTab(".aboutIcon");
         }
+    }
+
+    const deactivateTab = (selector)=>{
+        document.querySelectorAll(`${selector} a`).forEach(el => el.setAttribute("href","javascript:void(0)"));
     }
 
     lgNavigation();
