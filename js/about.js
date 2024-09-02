@@ -22,6 +22,36 @@ const appendRoleAndYears = ()=>{
 }
 
 const appendTechnicalSkills = ()=>{
+    const technicalSkills = document.querySelector(".technical-skills"),
+          title =document.querySelector(".technical-skills h3");
+    title.innerText = data.technicalSkillsHeader;
+    data.technicalSkills.forEach((skill)=>{
+        const divElm = document.createElement("div"),
+              divElm2 = document.createElement("div"),
+              sliceDivElm = document.createElement("div"),
+              percentageSpan = document.createElement("span"),
+              barDiv = document.createElement("div"),
+              fillDiv = document.createElement("div"),
+              headingElm = document.createElement("h6");
+              
+        divElm.classList.add("col-6", "col-md-3", "mb-3", "mb-sm-5");
+        divElm2.classList.add("c100", `p${skill.percentage}`);
+        sliceDivElm.classList.add("slice");
+        barDiv.classList.add("bar");
+        fillDiv.classList.add("fill");
+        headingElm.classList.add("text-uppercase", "open-sans-font", "text-center", "mt-2", "mt-sm-4");
+
+        percentageSpan.innerText = `${skill.percentage}%`
+        headingElm.innerText = skill.technology;
+        
+        technicalSkills.appendChild(divElm);
+        divElm.appendChild(divElm2);
+        divElm2.appendChild(percentageSpan);
+        divElm2.appendChild(sliceDivElm);
+        sliceDivElm.appendChild(barDiv);
+        sliceDivElm.appendChild(fillDiv);
+        divElm.appendChild(headingElm);
+    });
 }
 
 const appendExpAndEdu = ()=>{
