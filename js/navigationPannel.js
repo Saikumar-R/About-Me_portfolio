@@ -1,4 +1,4 @@
-import data from '../assets/navigationPannel.json' with { type: 'json' };
+import data from '../assets/data/navigationPannel.json' with { type: 'json' };
 
 const removeBlackScreen = ()=>{
     setTimeout(()=>{

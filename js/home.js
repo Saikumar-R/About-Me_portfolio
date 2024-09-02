@@ -1,4 +1,4 @@
-import data from "../assets/home.json" with {type: "json"};
+import data from "../assets/data/home.json" with {type: "json"};
 
 const moreBtn = document.getElementById("moreBtn"),
       greetingElm = document.getElementById("greet"),

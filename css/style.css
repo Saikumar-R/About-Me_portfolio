@@ -272,17 +272,17 @@ body.light hr.separator {
   }
 
   body.light.portfolio .slideshow nav span.nav-next {
-    background-image: url("../img/projects/navigation/right-arrow.png");
+    background-image: url("../assets/icons/right-arrow.png");
     background-size: cover;
   }
 
   body.light.portfolio .slideshow nav span.nav-prev {
-    background-image: url("../img/projects/navigation/left-arrow.png");
+    background-image: url("../assets/icons/left-arrow.png");
     background-size: cover;
   }
 
   body.light.portfolio .slideshow nav span.nav-close {
-    background-image: url("../img/projects/navigation/close-button.png");
+    background-image: url("../assets/icons/close-button.png");
     background-size: cover;
   }
 
@@ -499,7 +499,7 @@ body.light hr.separator {
 }
 
 .home .bg {
-  background-image: url(../img/my\ image.jpg);
+  background-image: url(../assets/images/profile-img.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1324,8 +1324,8 @@ body.light hr.separator {
 
   .main-img-mobile {
     border-radius: 50%;
-    width: 270px;
-    height: 270px;
+    width: 260px;
+    height: 290px;
     border: 4px solid #252525;
     margin: 0 auto 25px;
     display: block;
@@ -1619,8 +1619,12 @@ body.light hr.separator {
   }
 
   .main-img-mobile {
-    width: 200px;
-    height: 225px;
+    border-radius: 50%;
+    width: 260px;
+    height: 290px;
+    border: 4px solid #252525;
+    margin: 0 auto 25px;
+    display: block !important;
   }
 
   .home .home-details h1 {
