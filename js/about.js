@@ -1,4 +1,4 @@
-import data from "../assets/about.json" with {type: "json"};
+import data from "../assets/data/about.json" with {type: "json"};
 
 const titleElm = document.getElementById("title"),
       titleBgElm = document.querySelector(".title-bg")
