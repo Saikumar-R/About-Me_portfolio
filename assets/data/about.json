@@ -2,6 +2,45 @@
     "title":"ABOUT <span>ME</span>",
     "titleBg":"Resume",
     "experience":["4","years of  <span>experience</span>","in","<span>Frontend</span> Development"],
+    "technicalSkillsHeader":"Technical Skills",
+    "technicalSkills":[
+        {
+            "technology":"HTML5",
+            "percentage":"100"
+        },
+        {
+            "technology":"CSS3",
+            "percentage":"90"
+        },
+        {
+            "technology":"SASS",
+            "percentage":"85"
+        },
+        {
+            "technology":"Bootstrap",
+            "percentage":"100"
+        },
+        {
+            "technology":"Javascript",
+            "percentage":"90"
+        },
+        {
+            "technology":"jQuery",
+            "percentage":"95"
+        },
+        {
+            "technology":"Angular",
+            "percentage":"80"
+        },
+        {
+            "technology":"VueJS",
+            "percentage":"60"
+        },
+        {
+            "technology":"GIT",
+            "percentage":"90"
+        }
+    ],
     "expAndEduTitle":"Experience & Education",
     "experiencedRoles":[
         {
