@@ -17,6 +17,10 @@
             "percentage":"85"
         },
         {
+            "technology":"LESS",
+            "percentage":"85"
+        },
+        {
             "technology":"Bootstrap",
             "percentage":"100"
         },
@@ -34,7 +38,11 @@
         },
         {
             "technology":"VueJS",
-            "percentage":"60"
+            "percentage":"80"
+        },
+        {
+            "technology":"Vuex",
+            "percentage":"80"
         },
         {
             "technology":"GIT",
@@ -49,7 +57,7 @@
                     "icon":"fa-briefcase",
                     "years":"2022 - Present",
                     "organisation":"Frontend Developer <span class='place open-sans-font d-block'>Tata Consultancy Services</span>",
-                    "role":"Offshore Team Lead && Frontend Developer"
+                    "role":"Offshore Frontend Developer"
                 },
                 {
                     "icon":"fa-briefcase",
