@@ -47,6 +47,14 @@
         {
             "technology":"GIT",
             "percentage":"90"
+        },
+        {
+            "technology":"Figma",
+            "percentage":"75"
+        },
+        {
+            "technology":"Invision",
+            "percentage":"75"
         }
     ],
     "expAndEduTitle":"Experience & Education",
