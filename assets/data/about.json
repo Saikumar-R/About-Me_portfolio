@@ -17,6 +17,10 @@
             "percentage":"85"
         },
         {
+            "technology":"LESS",
+            "percentage":"85"
+        },
+        {
             "technology":"Bootstrap",
             "percentage":"100"
         },
@@ -34,6 +38,10 @@
         },
         {
             "technology":"VueJS",
+            "percentage":"80"
+        },
+        {
+            "technology":"Vuex",
             "percentage":"80"
         },
         {
