@@ -15,7 +15,7 @@ const appendRoleAndYears = ()=>{
           inTextElm = document.getElementById("inText"),
           domainTextElm = document.getElementById("domainText");
 
-    yearsDigitElm.innerHTML = data.experience[0],
+    yearsDigitElm.innerHTML = calculateExperienceInYears("2019-10-02"),
     yearsTextElm.innerHTML = data.experience[1],
     inTextElm.innerHTML = data.experience[2],
     domainTextElm.innerHTML = data.experience[3]
@@ -149,6 +149,20 @@ const appendPersonalInfoSection = () =>{
     });
 }
 
+const calculateExperienceInYears = (startDate) => {
+  const start = new Date(startDate);
+  const today = new Date();
+
+  let experience = today.getFullYear() - start.getFullYear();
+  const monthDiff = today.getMonth() - start.getMonth();
+
+  // Adjust if the current date is before the anniversary date
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < start.getDate())) {
+    experience--;
+  }
+
+  return experience;
+}
 
 appendRoleAndYears();
 appendTechnicalSkills();
