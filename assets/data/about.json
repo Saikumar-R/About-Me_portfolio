@@ -1,6 +1,7 @@
 {
     "title":"ABOUT <span>ME</span>",
     "titleBg":"Resume",
+    "dateOfBirth":"1997-10-22",
     "experience":["5","years of  <span>experience</span>","in","<span>Frontend</span> Development"],
     "technicalSkillsHeader":"Technical Skills",
     "technicalSkills":[
@@ -131,7 +132,7 @@
                     "value":"+91 9182946927"
                 },
                 {
-                    "label":"langages : ",
+                    "label":"languages : ",
                     "value":"English, Telugu"
                 },
                 {
