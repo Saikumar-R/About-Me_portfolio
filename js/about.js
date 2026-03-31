@@ -131,8 +131,11 @@ const appendPersonalInfoSection = () =>{
             valueElm.classList.add("value","d-inline-block");
 
             labelElm.innerText = details.label;
-            valueElm.innerText = details.value;
-            
+            if(details.label.includes("Age")){
+                valueElm.innerText = calculateAge(data.dateOfBirth);
+            }else{
+                valueElm.innerText = details.value;
+            }
             listItem.appendChild(labelElm);
             listItem.appendChild(valueElm);
 
@@ -163,6 +166,21 @@ const calculateExperienceInYears = (startDate) => {
 
   return experience;
 }
+
+const calculateAge = (birthDate) => {
+  const birth = new Date(birthDate);
+  const today = new Date();
+
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDiff = today.getMonth() - birth.getMonth();
+
+  // Adjust if the current date is before the birthday in the current year
+  if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birth.getDate())) {
+    age--;
+  }
+
+  return age;
+};
 
 appendRoleAndYears();
 appendTechnicalSkills();
